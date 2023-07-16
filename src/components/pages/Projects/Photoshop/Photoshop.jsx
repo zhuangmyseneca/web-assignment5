@@ -1,6 +1,6 @@
 // import { Routes, Route, Outlet, NavLink } from "react-router-dom";
 import React from 'react';
-export default function PhotoshopProject() {
+export default function Photoshop() {
     return (
         <div>
             <h2>PhotoshopProject here</h2>

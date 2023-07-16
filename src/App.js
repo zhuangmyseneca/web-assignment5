@@ -11,17 +11,17 @@ import { gsap } from "gsap";
 export default function App() {
 
   React.useEffect(() => {
-    gsap.from(".App-logo", { x: -500, duration:0.5, onComplete: () => gsap.to(".App-logo", { x: "0", duration: 1 }) });
+    gsap.from(".App-logo", { x: -500, duration: 0.5, onComplete: () => gsap.to(".App-logo", { x: "0", duration: 1 }) });
   }, []);
   return (
     <div className="App">
-      
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
         <Welcome name="Zhu" lastName="Huang" />
       </header>
-      <Router/>
+      <Router />
     </div>
   );
 };

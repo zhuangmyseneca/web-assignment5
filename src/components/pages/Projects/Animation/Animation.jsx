@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AnimationProject() {
+export default function Animation() {
   return (
     <div>
       <h2>AnimationProject here</h2>
