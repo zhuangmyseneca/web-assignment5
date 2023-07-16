@@ -22,7 +22,7 @@ export default function Layout() {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                About
+                <h1>About</h1>
               </NavLink>
             </li>
             <li>
@@ -31,7 +31,7 @@ export default function Layout() {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Projects
+                <h1>Projects</h1>
               </NavLink>
             </li>
             <li>
@@ -40,7 +40,7 @@ export default function Layout() {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Contact
+                <h1>Contact</h1>
               </NavLink>
             </li>
           </ul>
