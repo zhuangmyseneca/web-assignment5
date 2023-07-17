@@ -3,7 +3,7 @@ import React from 'react';
 export default function Animation() {
   return (
     <div>
-      <h2>AnimationProject here</h2>
+      <h2>Animation Project here</h2>
     </div>
   );
 }

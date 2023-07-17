@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // contact page display
 export default function Contact() {
   return (
