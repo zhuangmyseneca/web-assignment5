@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
@@ -11,6 +10,7 @@ import Animation from '../components/pages/Projects/Animation/Animation';
 import Photoshop from '../components/pages/Projects/Photoshop/Photoshop';
 import Layout from '../components/Layout';
 
+// handle routing in app
 const Router = () => {
   return (
     <Routes>

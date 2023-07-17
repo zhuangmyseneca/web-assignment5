@@ -1,5 +1,5 @@
-// import { Routes, Route, Outlet, NavLink } from "react-router-dom";
-
+import { Routes, Route, Outlet, NavLink } from "react-router-dom";
+// contact page display
 export default function Contact() {
   return (
     <div>
@@ -8,7 +8,7 @@ export default function Contact() {
       <p>address</p>
       <p>Toronto, ON, Canada</p>
       <p>
-        {/* <NavLink to="/">Go to the home page</NavLink> */}
+        <NavLink to="/">Go to the home page</NavLink>
       </p>
     </div>
   );

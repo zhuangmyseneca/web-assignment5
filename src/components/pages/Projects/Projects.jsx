@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -11,8 +11,9 @@ export default function Projects() {
       <NavLink to="/projects/photoshop">
         <button>Photoshop</button>
       </NavLink>
+      {/* Render the nested routes */}
+      <Outlet />
     </div>
   );
 }
-
 

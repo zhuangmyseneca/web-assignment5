@@ -1,5 +1,4 @@
-// import { Routes, Route, Outlet, NavLink } from "react-router-dom";
-
+// home page display
 export default function Home() {
   return (
     <div>

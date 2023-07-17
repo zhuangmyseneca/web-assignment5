@@ -19,15 +19,9 @@
 
 .App-Routes a {
   color: rgb(21, 14, 218);
-  
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
+/* logo and welcome display */
 .App-header {
   background-color: #4f3757;
   min-height: 40vh;
@@ -42,28 +36,22 @@
 .App-NavLink {
   color: #a161fb;
 }
+
+/* mobile first */
 @media (max-width: 768px) {
+
   /* Adjust the height for smaller screens */
   .App-logo {
-    height: 10vmin; 
+    height: 10vmin;
   }
- /* Adjust the margin for smaller screens */
+
+  /* Adjust the margin for smaller screens */
   .App-Routes li {
     margin: 10px;
   }
-/* Adjust the header height for smaller screens */
+
+  /* Adjust the header height for smaller screens */
   .App-header {
-    min-height: 30vh; 
+    min-height: 30vh;
   }
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(0deg);
-  }
-} */
-

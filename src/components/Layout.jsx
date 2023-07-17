@@ -4,7 +4,7 @@ export default function Layout() {
   return (
     <div>
       {/* A "layout route" is a good place to put markup you want to
-            share across all the pages on your site, like navigation. */}
+            share across all the pages on the site, like navigation. */}
       <nav className="App-Routes">
         <ul>
           <li>
@@ -50,7 +50,7 @@ export default function Layout() {
 
       {/* An <Outlet> renders whatever child route is currently active,
             so you can think about this <Outlet> as a placeholder for
-            the child routes we defined above. */}
+            the child routes */}
       <Outlet />
     </div>
   );
